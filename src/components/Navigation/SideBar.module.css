@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  background-color: #042235;
+  width: 80px;
+}
+
+li {
+  list-style: none;
+}
+
+.whale {
+  height: 31px;
+  width: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+}
+
+.menu-campaigns {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-campaigns img {
+  padding: 25%;
+}
+
+.menu-campaigns img:hover {
+  cursor: pointer;
+  padding: 25%;
+  background: #2995da;
+}

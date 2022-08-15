@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  height: 80px;
+  margin-left: 81px;
+}
+
+.left {
+  display: flex;
+  background-color: white;
+  margin-right: 2px;
+  align-items: center;
+  padding: 15px;
+}
+
+.left p {
+  font-size: 18px;
+  color: #1a1919;
+  opacity: 0.5;
+}
+
+.proxima-nova {
+  font-family: "proxima-nova", sans-serif;
+}
+
+.right {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.right p {
+  font-size: 18px;
+}
+
+.notifications {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.notifications p {
+  font-size: 14px;
+}
+
+.avatar {
+  border-radius: 18px;
+  width: 36px;
+  height: 36px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.sort {
+  color: grey;
+  width: 16px;
+  height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

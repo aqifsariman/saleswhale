@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Fragment } from 'react';
+import Account from './components/TopHeader/Account.jsx';
+import SideBar from './components/Navigation/SideBar';
+import Header from './components/Navigation/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <SideBar />
+      <Account />
+      <Header />
+    </Fragment>
   );
 }
 
